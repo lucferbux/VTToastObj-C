@@ -42,6 +42,12 @@
     
     [delegate.window addSubview:label];
     
+    for (UIView *view in delegate.window.subviews){
+        if ([view isKindOfClass:[UILabel class]]){
+            [view removeFromSuperview];
+        }
+    }
+    
     //label animation
     [UIView animateWithDuration:1.5 delay:0.0 usingSpringWithDamping:1 initialSpringVelocity:0 options:UIViewAnimationOptionCurveEaseInOut animations: ^(void){
         NSLog(@"ALPHA: %f", label.alpha);
