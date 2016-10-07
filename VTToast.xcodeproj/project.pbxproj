@@ -13,6 +13,7 @@
 		96C4A9A21DA7A244005DF350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C4A9A01DA7A244005DF350 /* Main.storyboard */; };
 		96C4A9A41DA7A244005DF350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C4A9A31DA7A244005DF350 /* Assets.xcassets */; };
 		96C4A9A71DA7A244005DF350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C4A9A51DA7A244005DF350 /* LaunchScreen.storyboard */; };
+		96C4A9B01DA7A297005DF350 /* VTToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C4A9AF1DA7A297005DF350 /* VTToast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		96C4A9A31DA7A244005DF350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96C4A9A61DA7A244005DF350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96C4A9A81DA7A244005DF350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C4A9AE1DA7A297005DF350 /* VTToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTToast.h; sourceTree = "<group>"; };
+		96C4A9AF1DA7A297005DF350 /* VTToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTToast.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				96C4A99B1DA7A244005DF350 /* AppDelegate.m */,
 				96C4A99D1DA7A244005DF350 /* ViewController.h */,
 				96C4A99E1DA7A244005DF350 /* ViewController.m */,
+				96C4A9AE1DA7A297005DF350 /* VTToast.h */,
+				96C4A9AF1DA7A297005DF350 /* VTToast.m */,
 				96C4A9A01DA7A244005DF350 /* Main.storyboard */,
 				96C4A9A31DA7A244005DF350 /* Assets.xcassets */,
 				96C4A9A51DA7A244005DF350 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96C4A99F1DA7A244005DF350 /* ViewController.m in Sources */,
+				96C4A9B01DA7A297005DF350 /* VTToast.m in Sources */,
 				96C4A99C1DA7A244005DF350 /* AppDelegate.m in Sources */,
 				96C4A9991DA7A244005DF350 /* main.m in Sources */,
 			);
